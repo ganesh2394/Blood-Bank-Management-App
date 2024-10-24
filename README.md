@@ -32,7 +32,7 @@ To get the Blood4U project running on your local machine, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/Blood4U.git
+   git clone https://github.com/ganesh9423/Blood-Bank-Management-App.git
   
 ## Usage
 
