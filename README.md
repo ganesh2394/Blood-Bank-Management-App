@@ -1,2 +1,83 @@
-# Blood-Bank-Management-App
-Complete MERN Stack Project Blood Bank Management System App
+# Blood4U - Blood Donation Management System
+
+## Description
+**Blood4U** is a comprehensive blood donation management system designed to streamline the process of blood donation and management. The system allows donors, recipients, and healthcare institutions to efficiently connect, manage blood banks, track donations, and provide real-time updates about blood availability.
+
+The platform also provides educational content and resources about blood donation to raise awareness and encourage more donors to participate.
+
+## Table of Contents
+1. [Description](#description)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Screenshots](#screenshots)
+6. [Technologies Used](#technologies-used)
+7. [License](#license)
+
+## Features
+- **Donor Registration:** Easy signup and login for donors with blood group information.
+- **Recipient Requests:** Recipients can create blood requests and track the status.
+- **Blood Bank Management:** Hospitals and blood banks can manage their inventory and donors.
+- **Notifications:** Automated notifications to donors and recipients about the status of requests and availability.
+- **Search Functionality:** Search donors and blood banks based on location and blood type.
+- **Real-time Availability:** Check real-time blood availability at registered blood banks.
+- **Educational Resources:** Provides information about blood types, donation process, and health tips.
+- **Admin Panel:** Admins can oversee the system, manage users, and update blood bank details.
+  
+## Usage
+
+### Donor Registration
+Users can sign up by providing their details, including:
+- **Blood Type:** Select your blood type from a dropdown list.
+- **Contact Information:** Enter your phone number and email address for communication.
+- **Location:** Provide your address or city to help match with nearby recipients.
+- **Additional Information:** Optionally include any medical history that may affect donation eligibility.
+
+Once registered, donors can log in to their account to view their profile and donation history.
+
+### Creating Blood Requests
+Recipients can create a blood request by:
+- **Specifying Required Blood Type:** Select the type of blood needed (e.g., A+, O-, etc.).
+- **Location:** Provide the location where the blood is needed for delivery.
+- **Urgency Level:** Indicate how urgently the blood is required (e.g., emergency, within 24 hours, etc.).
+- **Contact Information:** Recipients should provide their contact details for communication.
+
+After submitting a request, recipients will receive notifications about potential matches with donors.
+
+### Search and Match
+Users can utilize the search feature to find:
+- **Donors:** Filter donors based on blood type and location.
+- **Blood Banks:** Locate nearby blood banks, view their available blood types, and contact them directly.
+- **Request Status:** Check the status of their blood requests and receive updates on matches.
+
+### Admin Management
+Admins have a dedicated panel to:
+- **Manage Users:** View, edit, or deactivate user accounts (both donors and recipients).
+- **Track Donations:** Monitor the history of donations and blood requests.
+- **Update Blood Bank Inventory:** Maintain accurate records of blood available in various banks, ensuring real-time availability information.
+- **Generate Reports:** Create reports for blood donation activities to analyze trends and improve the service.
+
+## Screenshots
+To provide a visual representation of the project, include screenshots of the application in action. Place the images in the `screenshots` folder and reference them in the README.
+
+![Homepage](screenshots/homepage.png)
+*Figure 1: Blood4U Homepage*
+
+![Donor Registration](screenshots/donor_registration.png)
+*Figure 2: Donor Registration Form*
+
+![Blood Request](screenshots/blood_request.png)
+*Figure 3: Blood Request Form*
+
+## Technologies Used
+- **Java:** The primary programming language used for backend development.
+- **Spring Boot:** Framework used to build the REST API for handling requests and managing the application logic.
+- **MySQL:** Database management system for storing user data, blood donations, requests, and inventory.
+- **JavaScript (React):** Used for building the frontend interface, providing a responsive and interactive user experience.
+- **CSS/HTML:** For designing the user interface and ensuring a user-friendly layout.
+- **Maven:** Dependency management tool to manage project dependencies and build the application.
+- **Postman:** Tool used for testing APIs to ensure that they function correctly and return the expected results.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
