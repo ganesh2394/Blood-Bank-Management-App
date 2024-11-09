@@ -7,8 +7,7 @@
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Screenshots](#screenshots)
-6. [Technologies Used](#technologies-used)
-7. [License](#license)
+6. [License](#license)
 
 
 
@@ -78,15 +77,6 @@ To provide a visual representation of the project, include screenshots of the ap
 
 ![AdminHome Page](Screenshots/AdminHome.png)
 *Figure 3: Admin Home Page*
-
-## Technologies Used
-- **Java:** The primary programming language used for backend development.
-- **Spring Boot:** Framework used to build the REST API for handling requests and managing the application logic.
-- **MySQL:** Database management system for storing user data, blood donations, requests, and inventory.
-- **JavaScript (React):** Used for building the frontend interface, providing a responsive and interactive user experience.
-- **CSS/HTML:** For designing the user interface and ensuring a user-friendly layout.
-- **Maven:** Dependency management tool to manage project dependencies and build the application.
-- **Postman:** Tool used for testing APIs to ensure that they function correctly and return the expected results.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
