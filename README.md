@@ -92,14 +92,14 @@ The Blood4U application follows a **MERN stack architecture** with the following
 ## Screenshots
 To provide a visual representation of the project, include screenshots of the application in action. Place the images in the `screenshots` folder and reference them in the README.
 
-![Homepage](screenshots/homepage.png)
+![Homepage](Screenshots/Homepage.png)
 *Figure 1: Blood4U Homepage*
 
-![Donor Registration](screenshots/donor_registration.png)
+![Donor Registration](Screenshots/RegisterPage.png)
 *Figure 2: Donor Registration Form*
 
-![Blood Request](screenshots/blood_request.png)
-*Figure 3: Blood Request Form*
+![Admin Home Page](Screenshots/AdminHome.png)
+*Figure 3: Admin Home Page*
 
 ---
 
