@@ -70,14 +70,10 @@ The Blood4U application follows a **MERN stack architecture** with the following
 ---
 
 ## Database Structure
-Here’s a breakdown of the key MongoDB collections used:
+Here’s a breakdown of the two main MongoDB collections used:
 
-- **Users**: Stores information for donors, hospitals, organizations, and admins.
-- **BloodStock**: Tracks real-time availability of various blood types across locations.
-- **BloodRequests**: Manages hospital requests for specific blood types.
-- **DonationEvents**: Records details of upcoming and past donation events.
-- **DonorHistory**: Keeps a record of each donor’s history and eligibility status.
-- **AdminLogs**: Logs activities performed by the admin for monitoring purposes.
+- **Users**: A single table for all roles (Donor, Hospital, Organization, Admin) with fields such as user role, name, contact info, and other relevant details.
+- **Inventory**: Tracks real-time availability of different blood types, including stock levels and associated locations.
 
 ---
 
