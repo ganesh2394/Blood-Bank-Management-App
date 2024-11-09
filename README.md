@@ -8,6 +8,7 @@ A full-stack web application designed to streamline blood donation processes, fa
 - [Technologies Used](#technologies-used)
 - [Project Architecture](#project-architecture)
 - [Database Structure](#database-structure)
+- [Screenshots](#screenshots)
 - [Project Modules](#project-modules)
 - [Usage](#usage)
 - [Benefits](#benefits)
@@ -85,6 +86,20 @@ The Blood4U application follows a **MERN stack architecture** with the following
 - **Client-Side (React)**: Handles user interactions, data display, and API calls.
 - **Server-Side (Express & Node.js)**: Processes client requests, manages business logic, and communicates with the database.
 - **Database (MongoDB)**: Stores data on users, blood stocks, donation events, and hospital requests.
+
+---
+
+## Screenshots
+To provide a visual representation of the project, include screenshots of the application in action. Place the images in the `screenshots` folder and reference them in the README.
+
+![Homepage](screenshots/homepage.png)
+*Figure 1: Blood4U Homepage*
+
+![Donor Registration](screenshots/donor_registration.png)
+*Figure 2: Donor Registration Form*
+
+![Blood Request](screenshots/blood_request.png)
+*Figure 3: Blood Request Form*
 
 ---
 
