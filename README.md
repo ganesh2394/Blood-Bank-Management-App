@@ -76,7 +76,7 @@ The blood donation process in many regions remains slow and inefficient, with li
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: JSON Web Tokens (JWT)
-- **Real-Time Updates**: WebSocket or similar technology
+- **Real-Time Updates**: WebSocket 
 
 ---
 
@@ -90,7 +90,7 @@ The Blood4U application follows a **MERN stack architecture** with the following
 ---
 
 ## Screenshots
-To provide a visual representation of the project, include screenshots of the application in action. Place the images in the `screenshots` folder and reference them in the README.
+To provide a visual representation of the project :
 
 ![Homepage](Screenshots/Homepage.png)
 *Figure 1: Blood4U Homepage*
@@ -105,10 +105,10 @@ To provide a visual representation of the project, include screenshots of the ap
 
 ## Database Structure
 
-Here’s a breakdown of the two main MongoDB collections used:
+In this project i have used two tables **Users** to store the information about the users and **Inventories** to manage the inventory information of the different blood types.
 
 - **Users**: A single table for all roles (Donor, Hospital, Organization, Admin) with fields such as user role, name, contact info, and other relevant details.
-- **Inventory**: Tracks real-time availability of different blood types, including stock levels and associated locations.
+- **Inventories**: Tracks real-time availability of different blood types, including stock levels and associated locations.
 
 ---
 
